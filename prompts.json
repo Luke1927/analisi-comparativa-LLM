@@ -1,0 +1,26 @@
+[
+	{
+		"id": 0,
+		"category": "reasoning",
+		"language": "it",
+		"prompt": "Se un treno parte da Roma alle 14:00 e viaggia a 120 km/h, a che ora arriva a Milano, distante 600 km, supponendo nessuna fermata?"
+	},
+	{
+		"id": 1,
+		"category": "reasoning",
+		"language": "en",
+		"prompt": "If a train leaves Rome at 14:00 and travels at 120 km/h, what time does it arrive in Milan, 600 km away, assuming no stops?"
+	},
+	{
+		"id": 2,
+		"category": "resource_recommendation",
+		"language": "it",
+		"prompt": "Consigliami due o tre risorse online affidabili per imparare le basi del machine learning."
+	},
+	{
+		"id": 3,
+		"category": "summarization",
+		"language": "it",
+		"prompt": "Riassumi in tre frasi il seguente testo: \"L'apprendimento supervisionato è una tecnica di apprendimento automatico che mira a istruire un sistema informatico in modo da consentirgli di elaborare automaticamente previsioni sui valori di uscita di un sistema rispetto a un input sulla base di una serie di esempi ideali, costituiti da coppie di input e di output, che gli vengono inizialmente forniti.\""
+	}
+]

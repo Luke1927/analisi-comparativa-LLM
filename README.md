@@ -32,3 +32,10 @@ Eseguire il file `models.py`. Per vedere i modelli scaricati su linux basta eseg
 ```sh
 ls -l ~/.cache/huggingface/hub
 ```
+
+## Login su Hugging-Face
+Eseguire questo comando e seguire la procedura richiesta:
+
+```sh
+hf auth login
+```
