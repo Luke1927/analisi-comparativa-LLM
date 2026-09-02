@@ -20,7 +20,7 @@ def get_executable_models():
 
 
 def load_model(model_name):
-	print(f"\nCaricamento di {model_name}...")
+	print(f"Caricamento di {model_name}...")
 	quant_config = BitsAndBytesConfig(
 		load_in_4bit=True,
 		bnb_4bit_compute_dtype=torch.float16,
@@ -41,18 +41,24 @@ def load_model(model_name):
 	else:
 		print("Modello interamente su un singolo device:", model.device)
 
-
 	return model, tokenizer
 
+
+def unload_model(model):
+	del model
+	torch.cuda.empty_cache()
+
+
 def load_prompts():
-	with open("prompts.json", "r") as file:
+	with open("prompts.json", "r", encoding="utf-8") as file:
 		data = json.load(file)
 	return data
 
-def evaluate_model(model, tokenizer, prompt):
+
+def evaluate_model(model, tokenizer, prompt_text):
 	# INPUT
 	message = [
-		{"role": "user", "content": prompt}
+		{"role": "user", "content": prompt_text}
 	]
 	inputs = tokenizer.apply_chat_template(
 		message,
@@ -76,20 +82,35 @@ def evaluate_model(model, tokenizer, prompt):
 		output[0][inputs["input_ids"].shape[1]:],
 		skip_special_tokens=True
 	)
-	print("\n--- Risposta ---")
-	print(response)
 
+	return(response)
 
 
 def main():
 	models_to_exec = get_executable_models()
 	prompt_list = load_prompts()
+	prompt_size = len(prompt_list)
+
+	response_list = []
 
 	for model_name in models_to_exec:
-		model, tokenizer = load_model(model_name)
-		for prompt in prompt_list:
-			evaluate_model(model, tokenizer, prompt["prompt"])
+		try:
+			model, tokenizer = load_model(model_name)
+		except Exception as e:
+			print(f"Errore nel caricamento del modello {model_name}:\n\t{e}")
+			continue
 
-	print("done.")
+		for i in range(prompt_size):
+			prompt = prompt_list[i]
+			print(f"Calcolo inferenza del prompt {i+1} di {prompt_size}")
+			try:
+				response_list.append( evaluate_model(model, tokenizer, prompt["prompt"]) )
+			except Exception as e:
+				print(f"Errore nella valutazione del modello {model_name} con il prompt #{prompt["id"]}:\n\t{e}")
+
+		unload_model(model)
+
+	print(response_list)
+
 
 main()
