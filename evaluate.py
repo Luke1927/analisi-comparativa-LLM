@@ -2,6 +2,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from huggingface_hub import scan_cache_dir
 from models import model_list
+import json
 
 
 def get_executable_models():
@@ -19,9 +20,7 @@ def get_executable_models():
 
 
 def load_model(model_name):
-	#model_name = "Qwen/Qwen2.5-0.5B-Instruct"
-	#model_name = "HuggingFaceTB/SmolLM2-135M-Instruct"
-	print(f"Caricamento di {model_name}...")
+	print(f"\nCaricamento di {model_name}...")
 	quant_config = BitsAndBytesConfig(
 		load_in_4bit=True,
 		bnb_4bit_compute_dtype=torch.float16,
@@ -45,17 +44,18 @@ def load_model(model_name):
 
 	return model, tokenizer
 
+def load_prompts():
+	with open("prompts.json", "r") as file:
+		data = json.load(file)
+	return data
 
-
-def evaluate_model(model, tokenizer, prompts):
+def evaluate_model(model, tokenizer, prompt):
 	# INPUT
-	messages = [
-		#{"role": "user", "content": "Spiegami in due frasi cos'è un large language model."}
-		{"role": "user", "content": "What's the Capital of the US?"}
-		#{"role": "user", "content": "Explain in two sentences what's a large language model."}
+	message = [
+		{"role": "user", "content": prompt}
 	]
 	inputs = tokenizer.apply_chat_template(
-		messages,
+		message,
 		add_generation_prompt=True,
 		return_tensors="pt",
 		return_dict=True,
@@ -83,8 +83,13 @@ def evaluate_model(model, tokenizer, prompts):
 
 def main():
 	models_to_exec = get_executable_models()
-	for model in models_to_exec:
-		print(model)
+	prompt_list = load_prompts()
+
+	for model_name in models_to_exec:
+		model, tokenizer = load_model(model_name)
+		for prompt in prompt_list:
+			evaluate_model(model, tokenizer, prompt["prompt"])
+
 	print("done.")
 
 main()
