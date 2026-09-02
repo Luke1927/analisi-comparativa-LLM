@@ -91,8 +91,6 @@ def main():
 	prompt_list = load_prompts()
 	prompt_size = len(prompt_list)
 
-	response_list = []
-
 	for model_name in models_to_exec:
 		try:
 			model, tokenizer = load_model(model_name)
@@ -104,13 +102,23 @@ def main():
 			prompt = prompt_list[i]
 			print(f"Calcolo inferenza del prompt {i+1} di {prompt_size}")
 			try:
-				response_list.append( evaluate_model(model, tokenizer, prompt["prompt"]) )
+				response = evaluate_model(model, tokenizer, prompt["prompt"])
+				record = {
+					"model": model_name,
+					"prompt_id": prompt["id"],
+					"response": response
+				}
+				line = json.dumps(record, ensure_ascii=False)
+				line += "\n"
+				with open("out/results.jsonl", "a", encoding="utf-8") as file:
+					file.write(line)
 			except Exception as e:
 				print(f"Errore nella valutazione del modello {model_name} con il prompt #{prompt["id"]}:\n\t{e}")
 
+		print()
 		unload_model(model)
 
-	print(response_list)
+	print("done.")
 
 
 main()
