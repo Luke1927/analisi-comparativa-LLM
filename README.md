@@ -27,7 +27,12 @@ pip install -r requirements.txt
 ```
 
 ## Scaricamento modelli
-Eseguire il file `models.py`. Per vedere i modelli scaricati su linux basta eseguire:
+Eseguire il file `download_models.py`:
+```sh
+python3 download_models.py
+```
+
+Per vedere i modelli scaricati su linux basta eseguire:
 
 ```sh
 ls -l ~/.cache/huggingface/hub
@@ -38,4 +43,10 @@ Eseguire questo comando e seguire la procedura richiesta:
 
 ```sh
 hf auth login
+```
+
+# Valutazione delle AI
+Per eseguire il processo di valutazione di tutte le AI, eseguire il file `evaluate.py`:
+```sh
+python3 evaluate.py
 ```
