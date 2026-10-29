@@ -7,6 +7,7 @@ import os
 import time
 
 RESPONSE_FILE = "out/responses.jsonl"
+MAX_NEW_TOKENS = 512
 
 def load_prompts():
 	with open("prompts.json", "r", encoding="utf-8") as file:
@@ -94,7 +95,7 @@ def generate_response(model, tokenizer, prompt_text):
 	start = time.time()
 	output = model.generate(
 		**inputs,
-		max_new_tokens=200,
+		max_new_tokens=MAX_NEW_TOKENS,
 		do_sample=False,
 		#do_sample=True,
 		#temperature=0.7,
