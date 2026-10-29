@@ -13,4 +13,4 @@ for repo_id in model_list:
 		print(f"\nErrore durante lo scaricamento di {repo_id}:\n\t{e}")
 
 
-print(f"\n{"="*29}\n|| Scaricamento completato ||\n{"="*29}")
+print(f"\n{'='*29}\n|| Scaricamento completato ||\n{'='*29}")
