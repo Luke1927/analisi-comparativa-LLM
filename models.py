@@ -15,8 +15,20 @@ if host_type == "workstation" or host_type == "colab":
 		"google/gemma-4-E4B-it",
 	]
 else:
+	# Modelli di propotipazione per il computer di casa.
+	# Non rientreranno nel report finale
 	model_list = [
 		"HuggingFaceTB/SmolLM2-135M-Instruct",
 		"HuggingFaceTB/SmolLM2-360M-Instruct",
 		"Qwen/Qwen2.5-0.5B-Instruct",
 	]
+
+
+# Google Colab funziona in sessioni da 12 ore massime,
+# e dopo ogni sessione si resetta l'ambiente di sviluppo, cancellando
+# tutti gli eventuali modelli scaricati con il nostro `download_models.py`.
+# Quindi è inutile scaricare tutti i modelli in anticipo e eseguirli
+# tutti insieme dopo. Conviene lavorare con un modello per volta
+if host_type == "colab":
+	colab_index = int(os.getenv("COLAB_INDEX", "0"))
+	model_list = [ model_list[colab_index] ]
