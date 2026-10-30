@@ -45,8 +45,22 @@ Eseguire questo comando e seguire la procedura richiesta:
 hf auth login
 ```
 
-# Valutazione delle AI
-Per eseguire il processo di valutazione di tutte le AI, eseguire il file `evaluate.py`:
+# Esecuzione
+
+## Generazione delle risposte
+Per eseguire il processo di inferenza dei modelli scaricati, eseguire il file `generate.py`:
 ```sh
 python3 evaluate.py
 ```
+
+## Valutazione delle AI
+> TODO
+Per eseguire il processo di valutazione di tutte le risposte generate dalle AI, eseguire il file `evaluate.py`:
+```sh
+python3 evaluate.py
+```
+
+# Anteprima
+È stato generato un file di anteprima per visualizzare lo stato di avanzamento del progetto. Fino ad ora si è eseguito su una sessione di Google Colab con gpu Tesla T4 solamente il modello `google/gemma-4-E4B-it`, che si tratta di un modello a 8 miliardi di parametri, ma 4.4 miliardi effettivi, in quanto tale modello fa uso di Per-Layer Embeddings (PLE). Il modello è stato quantizzato a 4 bit (`load_in_4bit=True`), ed è stato fatto girare sui prompt del dataset "MT bench", che è specifico per la valutazione degli LLM, dove ogni prompt è classificato in diverse categorie. Il dataset originale di "MT bench" utilizza una sequenza di prompt, di solito due prompt da eseguire uno dopo l'altro all'interno della stessa "conversazione". Nel nostro progetto abbiamo utilizzato solamente il primo prompt di ogni array `turns`.
+
+In totale sono stati quindi eseguiti 80 prompts, tutti in lingua inglese, e tutti sul modello `google/gemma-4-E4B-it`, attualmente. Il risultato è stato aggregato con un utility script (`preview2.py`) e convertito in un file html (`out/anteprima.html`). Da lì, è bastato aprire il file in browser qualunque e selezionare l'opzione "Stampa su file" per convertirlo in pdf (`out/anteprima.pdf`)
