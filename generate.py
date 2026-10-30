@@ -6,11 +6,18 @@ import json
 import os
 import time
 
+host_type = os.getenv("HOST_TYPE", "workstation").lower()
+if host_type == "colab":
+	from google.colab import drive
+	drive.mount('/content/drive')
+	os.chdir('/content/drive/MyDrive/analisi-comparativa-LLM')
+
+PROMPT_FILE = "prompts.json"
 RESPONSE_FILE = "out/responses.jsonl"
 MAX_NEW_TOKENS = 512
 
 def load_prompts():
-	with open("prompts.json", "r", encoding="utf-8") as file:
+	with open(PROMPT_FILE, "r", encoding="utf-8") as file:
 		data = json.load(file)
 	return data
 

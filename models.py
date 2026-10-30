@@ -4,7 +4,7 @@ os.environ["HF_XET_HIGH_PERFORMANCE"] = "1"
 
 host_type = os.getenv("HOST_TYPE", "workstation").lower()
 
-if host_type == "workstation":
+if host_type == "workstation" or host_type == "colab":
 	model_list = [
 		"meta-llama/Llama-3.2-1B-Instruct",
 		"meta-llama/Llama-3.2-3B-Instruct",
