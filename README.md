@@ -50,7 +50,7 @@ hf auth login
 ## Generazione delle risposte
 Per eseguire il processo di inferenza dei modelli scaricati, eseguire il file `generate.py`:
 ```sh
-python3 evaluate.py
+python3 generate.py
 ```
 
 ## Valutazione delle AI
