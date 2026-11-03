@@ -1,5 +1,3 @@
-import token
-
 import markdown
 import json
 
