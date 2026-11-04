@@ -45,6 +45,6 @@ def sort(prompt_list):
 prompts = generate_new_prompts("local/MT_bench.jsonl")
 prompts = sort(prompts)
 data = json.dumps(prompts, ensure_ascii=False, indent="\t")
-with open("out/en-prompts.json", "w", encoding="utf-8") as file:
+with open("out/prompts-en.json", "w", encoding="utf-8") as file:
 	file.write(data)
 print("done.")
