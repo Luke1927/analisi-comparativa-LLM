@@ -1,7 +1,7 @@
 import json
 
-PROMPT_EN_FILE = "prompts.json"
-QUERIES_EN_FILE = "queries-en.txt"
+PROMPT_EN_FILE = "dataset/prompts-en.json"
+QUERIES_EN_FILE = "dataset/queries-en.txt"
 
 
 def load_prompt_texts():
