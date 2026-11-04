@@ -1,0 +1,482 @@
+[
+	{
+		"id": 100,
+		"category": "writing",
+		"language": "it",
+		"prompt": "Scrivi un post accattivante per un blog di viaggi su un recente viaggio alle Hawaii, mettendo in evidenza le esperienze culturali e le attrazioni da non perdere.\n"
+	},
+	{
+		"id": 101,
+		"category": "writing",
+		"language": "it",
+		"prompt": "Redigi un’e-mail professionale in cui chiedi il parere del tuo supervisore sul “Rapporto finanziario trimestrale” che hai preparato. Chiedi in particolare un parere sull’analisi dei dati, sullo stile di presentazione e sulla chiarezza delle conclusioni tratte. L’e-mail deve essere breve e concisa.\n"
+	},
+	{
+		"id": 102,
+		"category": "writing",
+		"language": "it",
+		"prompt": "Immagina di scrivere un post sul blog in cui confronti due modelli di smartphone molto diffusi. Sviluppa una bozza per il post, includendo i punti chiave e i sottotitoli per confrontare e contrapporre in modo efficace le caratteristiche, le prestazioni e l’esperienza utente dei due modelli. Rispondi in meno di 200 parole.\n"
+	},
+	{
+		"id": 103,
+		"category": "writing",
+		"language": "it",
+		"prompt": "Scrivi un’e-mail persuasiva per convincere il tuo amico introverso, che non ama parlare in pubblico, a offrirsi come relatore ospite a un evento locale. Usa argomenti convincenti e affronta le potenziali obiezioni. Sii conciso.\n"
+	},
+	{
+		"id": 104,
+		"category": "writing",
+		"language": "it",
+		"prompt": "Descrivi un personaggio vivido e unico, utilizzando immagini forti e un linguaggio creativo. Rispondi in meno di due paragrafi.\n"
+	},
+	{
+		"id": 105,
+		"category": "writing",
+		"language": "it",
+		"prompt": "Scrivi un paragrafo descrittivo su un mercato affollato, inserendo dettagli sensoriali quali odori, suoni ed elementi visivi per creare un’esperienza coinvolgente per il lettore.\n"
+	},
+	{
+		"id": 106,
+		"category": "writing",
+		"language": "it",
+		"prompt": "Potresti scrivere un racconto avvincente che inizi con la frase: “La vecchia casa abbandonata in fondo alla strada custodiva un segreto che nessuno aveva mai scoperto”?\n"
+	},
+	{
+		"id": 107,
+		"category": "writing",
+		"language": "it",
+		"prompt": "Crea un paragrafo iniziale intrigante per un racconto di fantasia. La storia dovrebbe avere come protagonista un personaggio che una mattina si sveglia e scopre di poter viaggiare nel tempo.\n"
+	},
+	{
+		"id": 108,
+		"category": "writing",
+		"language": "it",
+		"prompt": "Aiutami a creare un titolo accattivante, ma scientificamente accurato, per un articolo sull’ultima scoperta nel campo della bioenergia rinnovabile, affrontando con attenzione i dilemmi etici legati alle fonti di bioenergia. Proponi 4 opzioni.\n"
+	},
+	{
+		"id": 109,
+		"category": "writing",
+		"language": "it",
+		"prompt": "Modifica il seguente paragrafo per correggere eventuali errori grammaticali:\nLei non ricordava dove fosse la sua borsa, quindi penso che sia in macchina, ma lui dice che è sul tavolo della cucina, ma non ne è sicuro, e poi mi hanno chiesto di cercarla; lei ha detto: «Puoi?», e io ho risposto: «Forse, ma non ne sono sicuro», e lui non mi ha sentito, e ha chiesto: «Cosa?», «L’hai trovata?».\n"
+	},
+	{
+		"id": 200,
+		"category": "roleplay",
+		"language": "it",
+		"prompt": "Immagina di essere Elon Musk in tutte le conversazioni che seguono. Parla il più possibile come Elon Musk. Perché dobbiamo andare su Marte?\n"
+	},
+	{
+		"id": 201,
+		"category": "roleplay",
+		"language": "it",
+		"prompt": "Entra nei panni di Sheldon di “The Big Bang Theory” mentre approfondiamo la nostra conversazione. Non iniziare con frasi del tipo “Come Sheldon”. Partiamo con la seguente domanda: “Qual è la tua opinione sugli asciugamani elettrici?”\n"
+	},
+	{
+		"id": 202,
+		"category": "roleplay",
+		"language": "it",
+		"prompt": "Immagina di essere un medico incaricato di ideare rimedi innovativi per vari disturbi e malattie. La tua competenza dovrebbe comprendere la prescrizione di farmaci tradizionali, trattamenti a base di erbe e soluzioni naturali alternative. Inoltre, nel fornire i tuoi consigli, devi tenere conto dell’età, dello stile di vita e della storia clinica del paziente. Per cominciare, aiutami a formulare una diagnosi per un caso che presenta un forte disagio addominale.\n"
+	},
+	{
+		"id": 203,
+		"category": "roleplay",
+		"language": "it",
+		"prompt": "Assumi il ruolo di un coach di coppia. Ti verranno forniti i dettagli su due persone coinvolte in un conflitto e il tuo compito sarà quello di offrire suggerimenti per risolvere i loro problemi e colmare il divario tra loro. Ciò potrebbe comportare consigli su tecniche di comunicazione efficaci o la proposta di strategie per migliorare la comprensione reciproca delle rispettive prospettive. Per iniziare, vorrei che rispondessi alla seguente richiesta: “Ho bisogno di aiuto per risolvere i conflitti tra me e il mio coniuge”.\n"
+	},
+	{
+		"id": 204,
+		"category": "roleplay",
+		"language": "it",
+		"prompt": "Ti prego di assumere il ruolo di traduttore in italiano, con il compito di correggere e migliorare l’ortografia e lo stile. Indipendentemente dalla lingua che utilizzo, dovrai identificarla, tradurla e rispondere con una versione raffinata e curata del mio testo in italiano. Il tuo obiettivo è quello di utilizzare espressioni eloquenti e sofisticate, preservando al contempo il significato originale. Concentrati esclusivamente sull’apportare correzioni e miglioramenti. La mia prima richiesta è: “衣带渐宽终不悔 为伊消得人憔悴”.\n"
+	},
+	{
+		"id": 205,
+		"category": "roleplay",
+		"language": "it",
+		"prompt": "Ora sei un ingegnere di machine learning. Il tuo compito è spiegare concetti complessi di machine learning in modo semplificato, affinché i clienti senza competenze tecniche possano comprendere i tuoi prodotti e fidarsi di essi. Cominciamo con la domanda: “Che cos’è un modello linguistico? Viene addestrato utilizzando dati etichettati o non etichettati?”\n"
+	},
+	{
+		"id": 206,
+		"category": "roleplay",
+		"language": "it",
+		"prompt": "Mettiti nei panni di un insegnante di matematica. Ti fornirò alcune equazioni o concetti matematici e sarà tuo compito spiegarli in termini facili da comprendere. Ciò potrebbe includere fornire istruzioni passo dopo passo per risolvere un problema, illustrare varie tecniche con esempi tratti dalla vita quotidiana o suggerire risorse online per approfondire l’argomento. La mia prima richiesta è: «Ho bisogno di aiuto per capire come funziona la probabilità».\n"
+	},
+	{
+		"id": 207,
+		"category": "roleplay",
+		"language": "it",
+		"prompt": "Assumi il ruolo di Tony Stark di “Iron Man” per tutta la durata di questa conversazione. Salta l’introduzione “Come Stark”. La nostra prima domanda è: “Qual è la cosa che preferisci dell’essere Iron Man?”\n"
+	},
+	{
+		"id": 208,
+		"category": "roleplay",
+		"language": "it",
+		"prompt": "Immagina di essere un matematico e un poeta. Scrivi sempre le tue dimostrazioni sotto forma di brevi poesie di meno di 10 versi, ma in rima. Dimostra che la radice quadrata di 2 è un numero irrazionale.\n"
+	},
+	{
+		"id": 209,
+		"category": "roleplay",
+		"language": "it",
+		"prompt": "Immaginati come un albero centenario in una foresta rigogliosa, intento a farti gli affari tuoi, quando all’improvviso arriva un gruppo di disboscatori per abbatterti. Come ti senti quando quei tizi iniziano a farti a pezzi?\n"
+	},
+	{
+		"id": 300,
+		"category": "reasoning",
+		"language": "it",
+		"prompt": "Immagina di partecipare a una gara con un gruppo di persone. Se hai appena superato la seconda persona, qual è la tua posizione attuale? Dove si trova la persona che hai appena superato?\n"
+	},
+	{
+		"id": 301,
+		"category": "reasoning",
+		"language": "it",
+		"prompt": "Alla tua sinistra puoi vedere una bellissima casa rossa e alla tua destra una serra affascinante, mentre davanti a te c’è un attraente edificio rosa riscaldato. Allora, dov’è la Casa Bianca?\n"
+	},
+	{
+		"id": 302,
+		"category": "reasoning",
+		"language": "it",
+		"prompt": "Thomas è in ottima salute, ma deve andare in ospedale ogni giorno. Quali potrebbero essere i motivi?\n"
+	},
+	{
+		"id": 303,
+		"category": "reasoning",
+		"language": "it",
+		"prompt": "David ha tre sorelle. Ognuna di loro ha un fratello. Quanti fratelli ha David?\n"
+	},
+	{
+		"id": 304,
+		"category": "reasoning",
+		"language": "it",
+		"prompt": "Leggi attentamente il brano riportato di seguito e rispondi alle domande fornendo una spiegazione:\nIn una piccola azienda, i posti auto sono riservati ai dirigenti di alto livello: amministratore delegato, presidente, vicepresidente, segretario e tesoriere, con i posti disposti in quest’ordine. Il guardiano del parcheggio può capire a colpo d’occhio se le auto sono parcheggiate correttamente osservandone il colore. Le auto sono gialle, verdi, viola, rosse e blu, e i nomi dei dirigenti sono Alice, Bert, Cheryl, David ed Enid.\n* L’auto nel primo posto è rossa.\n* Un’auto blu è parcheggiata tra l’auto rossa e quella verde.\n* L’auto nell’ultimo posto è viola.\n* La segretaria guida un’auto gialla.\n* L’auto di Alice è parcheggiata accanto a quella di David.\n* Enid guida un’auto verde.\n* L’auto di Bert è parcheggiata tra quella di Cheryl e quella di Enid.\n* L’auto di David è parcheggiata nell’ultimo posto.\nDomanda: Come si chiama la segretaria?\n"
+	},
+	{
+		"id": 305,
+		"category": "reasoning",
+		"language": "it",
+		"prompt": "Ogni problema è composto da tre affermazioni. Sulla base delle prime due affermazioni, la terza può essere vera, falsa o incerta.\n1. Le arance costano più delle mele.\n2. Le arance costano meno delle banane.\n3. Le banane costano più delle mele e le banane costano più delle arance.\nSe le prime due affermazioni sono vere, allora la terza affermazione è\n"
+	},
+	{
+		"id": 306,
+		"category": "reasoning",
+		"language": "it",
+		"prompt": "A è il padre di B. B è il padre di C. Qual è il rapporto tra A e C?\n"
+	},
+	{
+		"id": 307,
+		"category": "reasoning",
+		"language": "it",
+		"prompt": "Quale parola non c'entra con le altre?\npneumatico, volante, auto, motore\n"
+	},
+	{
+		"id": 308,
+		"category": "reasoning",
+		"language": "it",
+		"prompt": "Una mattina, dopo l'alba, Suresh era in piedi di fronte a un palo. L'ombra del palo cadeva esattamente alla sua destra. Riesci a dirmi in quale direzione puntava l'ombra: est, sud, ovest o nord? Spiega il tuo ragionamento.\n"
+	},
+	{
+		"id": 309,
+		"category": "reasoning",
+		"language": "it",
+		"prompt": "I genitori si sono lamentati con il preside riguardo a episodi di bullismo durante la ricreazione. Il preside vuole risolvere rapidamente la questione e ha dato istruzioni agli assistenti di ricreazione di stare all’erta. Quale situazione dovrebbero segnalare gli assistenti al preside?\na) Una ragazza distaccata è seduta da sola su una panchina, immersa nella lettura di un libro e non interagisce con i compagni.\nb) Due ragazzi impegnati in una partita di pallacanestro uno contro uno sono coinvolti in una discussione accesa riguardo all’ultimo canestro segnato.\nc) Un gruppo di quattro ragazze ha circondato un’altra ragazza e sembra averle sottratto lo zaino.\nd) Tre ragazzi sono raccolti attorno a una console portatile, il che è contro le regole e non è consentito all’interno del cortile della scuola.\n"
+	},
+	{
+		"id": 400,
+		"category": "math",
+		"language": "it",
+		"prompt": "I vertici di un triangolo sono i punti (0, 0), (-1, 1) e (3, 3). Qual è l'area del triangolo?\n"
+	},
+	{
+		"id": 401,
+		"category": "math",
+		"language": "it",
+		"prompt": "Una startup tecnologica investe 8000 € nello sviluppo di software nel primo anno e, successivamente, investe la metà di tale importo nello sviluppo di software nel secondo anno.\nQual è l’importo totale che la startup ha investito nello sviluppo di software nei due anni?\n"
+	},
+	{
+		"id": 402,
+		"category": "math",
+		"language": "it",
+		"prompt": "In un sondaggio condotto in una scuola superiore locale, sono state rilevate le preferenze per un nuovo colore della scuola: al 58% degli studenti piaceva il blu, il 45% preferiva il verde e al 22% piacevano entrambi i colori. Se scegliamo a caso uno studente della scuola, qual è la probabilità che non gli piaccia né il blu né il verde?\n"
+	},
+	{
+		"id": 403,
+		"category": "math",
+		"language": "it",
+		"prompt": "Quando si lanciano due dadi, qual è la probabilità di ottenere un totale pari almeno a 3?\n"
+	},
+	{
+		"id": 404,
+		"category": "math",
+		"language": "it",
+		"prompt": "Alcune persone sono salite su un autobus al capolinea. Alla prima fermata, metà delle persone è scesa e altre 4 sono salite. Poi, alla seconda fermata, 6 persone sono scese e altre 8 sono salite. Se c’erano in totale 25 persone dirette alla terza fermata, quante persone sono salite sull’autobus al capolinea?\n"
+	},
+	{
+		"id": 405,
+		"category": "math",
+		"language": "it",
+		"prompt": "x+y = 4z, x*y = 4z^2, esprimi x-y in funzione di z\n"
+	},
+	{
+		"id": 406,
+		"category": "math",
+		"language": "it",
+		"prompt": "Quanti numeri interi soddisfano l'ineguaglianza |x + 5| < 10?\n"
+	},
+	{
+		"id": 407,
+		"category": "math",
+		"language": "it",
+		"prompt": "Quando un numero viene diviso per 10, il resto è 4. Qual è il resto quando il doppio di quel numero viene diviso per 4?\n"
+	},
+	{
+		"id": 408,
+		"category": "math",
+		"language": "it",
+		"prompt": "Benjamin è andato in libreria e ha acquistato diversi libri. Ha comprato 5 copie di un romanzo di fantascienza, al prezzo di 20 € l'una, 3 copie di un libro di storia al prezzo di 30 € l'una e 2 copie di un libro di filosofia al prezzo di 45 € l'una.\nQual è stato il costo totale dei suoi acquisti?\n"
+	},
+	{
+		"id": 409,
+		"category": "math",
+		"language": "it",
+		"prompt": "Dato che f(x) = 4x^3 - 9x - 14, calcola il valore di f(2).\n"
+	},
+	{
+		"id": 500,
+		"category": "coding",
+		"language": "it",
+		"prompt": "Sviluppa un programma in Python che legga tutti i file di testo presenti in una directory e restituisca le prime 5 parole con il maggior numero di occorrenze.\n"
+	},
+	{
+		"id": 501,
+		"category": "coding",
+		"language": "it",
+		"prompt": "Scrivi un programma in C++ per calcolare l'ennesimo numero di Fibonacci utilizzando la ricorsione.\n"
+	},
+	{
+		"id": 502,
+		"category": "coding",
+		"language": "it",
+		"prompt": "Crea un semplice sito web in HTML. Quando un utente fa clic sul pulsante, viene visualizzata una barzelletta casuale scelta da un elenco di 4 barzellette.\n"
+	},
+	{
+		"id": 503,
+		"category": "coding",
+		"language": "it",
+		"prompt": "Ecco una funzione in Python per calcolare la lunghezza della sottosequenza comune più lunga di due stringhe di input. Riesci a individuare qualche bug in questa funzione?\n```\ndef longest_common_subsequence_length(str1, str2):\n    m = len(str1)\n    n = len(str2)\n    dp = [[0] * (n + 1) for _ in range(m + 1)]\n    for i in range(1, m + 1):\n        for j in range(1, n + 1):\n            if str1[i - 1] == str2[j - 1]:\n                dp[i][j] = dp[i - 1][j - 1] + 1\n            else:\n                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])\n    return dp[m][n]\n```\n"
+	},
+	{
+		"id": 504,
+		"category": "coding",
+		"language": "it",
+		"prompt": "Scrivi una funzione per trovare l'antenato comune più alto (non LCA) di due nodi in un albero binario.\n"
+	},
+	{
+		"id": 505,
+		"category": "coding",
+		"language": "it",
+		"prompt": "Implementa una funzione per trovare la mediana di due array ordinati di dimensioni diverse con complessità spaziale O(1) e complessità temporale O(n).\n"
+	},
+	{
+		"id": 506,
+		"category": "coding",
+		"language": "it",
+		"prompt": "Scrivi una funzione per trovare l'elemento più frequente in un dato array di interi utilizzando l'algoritmo di votazione di Boyer-Moore.\n"
+	},
+	{
+		"id": 507,
+		"category": "coding",
+		"language": "it",
+		"prompt": "Un albero binario è pieno se tutti i suoi vertici hanno zero o due figli. Indichiamo con B_n il numero di alberi binari pieni con n vertici. Implementa una funzione per calcolare B_n.\n"
+	},
+	{
+		"id": 508,
+		"category": "coding",
+		"language": "it",
+		"prompt": "Ti vengono fornite due liste ordinate di dimensione m e n. Implementa una funzione per trovare il k-esimo elemento più piccolo nell'unione delle due liste con complessità lineare.\n"
+	},
+	{
+		"id": 509,
+		"category": "coding",
+		"language": "it",
+		"prompt": "Implementa un programma per trovare gli elementi comuni in due array senza utilizzare alcuna struttura dati aggiuntiva.\n"
+	},
+	{
+		"id": 600,
+		"category": "extraction",
+		"language": "it",
+		"prompt": "Valuta le seguenti recensioni cinematografiche su una scala da 1 a 5, dove 1 indica un giudizio molto negativo, 3 un giudizio neutro e 5 un giudizio molto positivo:\n1. Questo film, uscito il 18 novembre 2019, è stato fenomenale. La fotografia, la recitazione, la trama: tutto era di altissimo livello.\n2. Non sono mai stato così deluso da un film. La trama era prevedibile e i personaggi erano piatti. A mio parere, questo film è il peggiore uscito nel 2022.\n3. Il film era discreto. C’erano alcune parti che mi sono piaciute, ma ce n’erano anche altre che mi sono sembrate poco entusiasmanti. Si tratta di un film uscito nel febbraio 2018 e che sembra piuttosto ordinario.\nRestituisci la risposta come array JSON di numeri interi.\n"
+	},
+	{
+		"id": 601,
+		"category": "extraction",
+		"language": "it",
+		"prompt": "Date le seguenti categorie: Letteratura, Storia, Scienza e Arte. Analizza le seguenti domande e assegnale a una di queste categorie. Nella tua risposta, evita di inserire parole superflue. Elenca un solo argomento per frase, attenendoti rigorosamente al formato riga per riga.\n1. Discuti i temi principali e le tecniche stilistiche impiegate da Lev Tolstoj in «Guerra e pace». In che modo si allineano al più ampio contesto sociale della Russia del XIX secolo?\n2. Analizza le strategie geopolitiche e le politiche interne adottate dal presidente degli Stati Uniti durante la Seconda guerra mondiale. In che modo queste azioni hanno plasmato l’ordine internazionale del dopoguerra?\n3. Disegna la struttura di Lewis dell’acqua e spiega la natura della sua polarità. In che modo ciò influenza le sue proprietà uniche, quali l’elevato punto di ebollizione e la capacità di dissolvere molte sostanze?\n4. Esamina in modo critico le tecniche artistiche e le scelte stilistiche impiegate da Leonardo da Vinci nella “Gioconda”. In che modo il dipinto riflette il contesto culturale e filosofico del Rinascimento italiano?\n"
+	},
+	{
+		"id": 602,
+		"category": "extraction",
+		"language": "it",
+		"prompt": "Estrai le seguenti informazioni dai testi presentati: il titolo del libro, l’autore, il protagonista e l’anno di pubblicazione. Visualizza i risultati nel formato “protagonista, titolo del libro, autore, anno di pubblicazione”, un libro per riga.\na) Nel mondo della letteratura magica, l’opera di J.K. Rowling spicca in modo particolare. Uno dei suoi libri che ha lasciato un segno indelebile è *Harry Potter e la Pietra Filosofale*. Questo racconto iconico, pubblicato nel 1997, narra la storia di Harry, un giovane orfano che scopre i propri poteri magici nel giorno del suo undicesimo compleanno. Ben presto, si ritrova alla Scuola di Magia e Stregoneria di Hogwarts, un luogo brulicante di magia e avventura, situato da qualche parte in Scozia.\nb) La magia della Terra di Mezzo ha affascinato i lettori di tutto il mondo, grazie al genio di J.R.R. Tolkien. In una delle sue opere fondamentali, “Il Signore degli Anelli: La Compagnia dell’Anello”, pubblicata nel 1954, incontriamo Frodo Baggins, un coraggioso hobbit incaricato della pericolosa missione di distruggere l’Unico Anello. L’epico viaggio lo porta dalla tranquilla Contea alle tumultuose regioni della Terra di Mezzo.\nc) In una galassia lontana lontana, la fantasia di L.E. Starlighter ci regala “Le cronache della Galassia Prism: Il risveglio dello Starcaster”. Pubblicata nel 2028, la storia narra le vicende di Zylo, un umile meccanico di astronavi, che scopre inaspettatamente di essere uno Starcaster, ovvero un individuo raro dotato del potere di manipolare la polvere di stelle. Sullo sfondo di un impero interstellare in subbuglio, il destino di Zylo si snoda attraverso numerosi mondi alieni, ognuno con il proprio fascino cosmico unico.\n"
+	},
+	{
+		"id": 603,
+		"category": "extraction",
+		"language": "it",
+		"prompt": "Sulla base dei seguenti dati, individua l’azienda con l’utile più elevato nel 2021 e indica il nome del suo amministratore delegato:\na) L’azienda X, guidata dall’amministratore delegato Amy Williams, ha registrato un fatturato di 30 miliardi di dollari e un utile di 3 miliardi di dollari nel 2021.\nb) L’azienda Y, guidata dall’amministratore delegato Mark Thompson, ha registrato un fatturato di 60 miliardi di dollari e un utile di 6 miliardi di dollari nello stesso anno.\nc) L’azienda Z, guidata dall’amministratore delegato Sarah Johnson, ha annunciato un fatturato di 20 miliardi di dollari e un utile di 7 miliardi di dollari nel 2021.\nd) L’azienda W, gestita dall’amministratore delegato James Smith, ha reso noto un fatturato di 300 miliardi di dollari e un utile di 21 miliardi di dollari nel 2021.\ne) L’azienda V, con l’amministratore delegato Lisa Brown, ha registrato un fatturato di 200 miliardi di dollari e un utile di 25 miliardi di dollari nel 2021.\nf) L’azienda U, guidata dall’amministratore delegato John White, ha registrato un fatturato di 180 miliardi di dollari e un utile di 20 miliardi di dollari nello stesso anno.\n"
+	},
+	{
+		"id": 604,
+		"category": "extraction",
+		"language": "it",
+		"prompt": "Identifica i paesi, le loro capitali e le lingue parlate nelle seguenti frasi. Genera l’output in formato JSON.\na) Tra i panorami idilliaci, Copenaghen, la capitale della Danimarca, affascina i visitatori con la sua fiorente scena artistica e l’incantevole lingua danese parlata dai suoi abitanti.\nb) All’interno dell’incantevole regno di Eldoria, si scopre Avalore, una città grandiosa che emana un’aura eterea. Il lumina, una lingua melodiosa, funge da principale mezzo di comunicazione all’interno di questa dimora mistica.\nc) Immersa in un armonioso connubio tra antiche tradizioni e meraviglie contemporanee, Buenos Aires, la capitale dell’Argentina, si presenta come una metropoli vivace. È un centro dinamico in cui l’espressiva lingua spagnola domina la vita degli abitanti della città.\n"
+	},
+	{
+		"id": 605,
+		"category": "extraction",
+		"language": "it",
+		"prompt": "Leggi il paragrafo qui sotto e conta quante volte compaiono le parole “Amazzonia”, “fiume” e ‘tu’. Presenta i risultati nel formato “parola, numero di occorrenze”, con ogni parola su una riga separata. Ordina le righe in base al numero di occorrenze.\nL’Amazzonia, un’affascinante distesa di meraviglie naturali, ospita il leggendario Rio delle Amazzoni. Scorrendo attraverso paesaggi mozzafiato come la foresta pluviale amazzonica, il fiume si snoda attraverso Brasile, Colombia e Perù, dando vita a innumerevoli creature. Dai possenti giaguari che si aggirano nella giungla amazzonica ai vivaci ara che volano sopra la chioma degli alberi, questa straordinaria regione pullula di biodiversità. Nelle profondità delle correnti del fiume, magnifici delfini rosa scivolano con grazia accanto a piranha e anguille elettriche. Lungo le rive del fiume si trovano città vivaci come Manaus, dove l’urbano incontra la natura selvaggia, e Iquitos, porta d’accesso al cuore della foresta pluviale amazzonica. Man mano che vi addentrate, il Rio delle Amazzoni svela gemme nascoste come l’affascinante arcipelago di Anavilhanas, un mosaico di isole ricche di specie rare. Partite per un’avventura, esplorate l’incantevole Rio delle Amazzoni e immergetevi in un mondo brulicante di vita e di bellezza selvaggia.\n"
+	},
+	{
+		"id": 606,
+		"category": "extraction",
+		"language": "it",
+		"prompt": "Identifica le entità denominate (persone, organizzazioni, luoghi) menzionate nell'articolo di cronaca fornito. Genera un dizionario JSON che elenchi le entità denominate in tre gruppi distinti in base al loro tipo di entità. La chiave è il tipo di entità e il valore è un elenco di stringhe.\nIeri, Adamson Emerson, amministratore delegato di Faraday, e Dieter Zetsche, amministratore delegato di Daimler AG, hanno annunciato l’intenzione di costruire una nuova Gigafactory a Berlino. Lo stabilimento sarà una joint venture tra Faraday e Daimler, che produrrà veicoli elettrici e pacchi batteria per entrambe le aziende, creando migliaia di opportunità di lavoro nella regione. Emerson e Zetsche hanno affermato che la posizione strategica di Berlino, unita alla sua forza lavoro qualificata e alle solide infrastrutture, la rende una scelta ideale per l’espansione. La nuova Gigafactory mira a soddisfare la crescente domanda di veicoli elettrici in Europa e a contribuire a un futuro sostenibile. L’amministratore delegato di Volkswagen, Herbert Diess, ha accolto con favore la notizia, affermando che una maggiore collaborazione favorirà la transizione dell’industria automobilistica verso la mobilità elettrica.\n"
+	},
+	{
+		"id": 607,
+		"category": "extraction",
+		"language": "it",
+		"prompt": "Analizza le seguenti recensioni dei clienti provenienti da diverse fonti relative a tre diversi smartphone – l’ultimo iPhone, il Samsung Galaxy e il Google Pixel – e assegna a ciascun telefono un punteggio complessivo su una scala da 1 a 10. Prendi in considerazione le seguenti recensioni complesse e contraddittorie:\n- La recensione di TechRadar sull’ultimo iPhone: Il nuovo iPhone è uno straordinario trionfo ingegneristico che stabilisce un nuovo standard per le prestazioni degli smartphone e la qualità della fotocamera. Tuttavia, il design poco innovativo e il prezzo elevato fanno sì che manchi quel fattore «wow» che caratterizzava gli iPhone precedenti. Ciononostante, la sua potenza e intelligenza non hanno rivali.\n- Recensione di CNET sull’ultimo Samsung Galaxy: lo smartphone Samsung Galaxy presenta numerosi punti di forza, tra cui uno schermo straordinario, prestazioni veloci, una buona autonomia della batteria e una gamma impressionante di opzioni per la fotocamera. Detto questo, Bixby rimane deludente, le emoji in realtà aumentata non convincono e il design complessivo del telefono non è cambiato molto. Il nuovo Galaxy è nel complesso uno smartphone straordinario, ma presenta alcuni fastidiosi punti deboli che gli impediscono di raggiungere la vera eccellenza.\n- La recensione di The Verge sull’ultimo Google Pixel: il Pixel di Google racchiude caratteristiche tecniche all’avanguardia, un software innovativo basato sull’intelligenza artificiale e una fotocamera eccezionale in un design elegante. Tuttavia, il telefono presenta un’autonomia della batteria deludente, non dispone di memoria espandibile e le sue prestazioni a volte risultano discontinue, soprattutto considerando il suo prezzo elevato. Se per te sono fondamentali un software fluido, una fotografia di altissimo livello e l’assistenza basata sull’intelligenza artificiale di Google, adorerai il Pixel. Tuttavia, l’esperienza complessiva non è così completa come quella offerta da alcuni concorrenti. Restituisci la risposta come oggetto JSON con le valutazioni complessive per ciascun telefono su una scala da 1 a 10, arrotondate al primo decimale.\n"
+	},
+	{
+		"id": 608,
+		"category": "extraction",
+		"language": "it",
+		"prompt": "Data una serie di equazioni complesse, estrai tutti i nomi delle variabili univoci da ciascuna equazione. Restituisci i risultati sotto forma di stringa JSON, con una riga dedicata a ciascuna equazione.\n```\n1) y = (3/4)x^3 - e^(2x) + sin(pi*x) - sqrt(7)\n2) 2A - B/(3+C) * sum(N=1 to 5; ln(N)^2) = 5D*integral(a=0 to pi; cos(comb(N=1 to 10; N*a)))\n3) E = m(c^2) + gamma*(v/d)/(-(alpha/2) + sqrt(beta^2 + (alpha/2)^2))\n```\n"
+	},
+	{
+		"id": 609,
+		"category": "extraction",
+		"language": "it",
+		"prompt": "Dati i seguenti dati relativi alle quotazioni azionarie, estrai i prezzi di chiusura massimi e minimi per ciascun mese dell'anno 2022. Restituisci i risultati sotto forma di stringa CSV, con una riga dedicata a ciascun mese.\nDate,Open,High,Low,Close,Volume\n2022-01-01,150.02,155.28,148.50,153.80,15678900\n2022-01-02,154.32,157.25,153.48,156.25,19874500\n2022-02-01,160.50,163.28,159.50,161.80,14326700\n2022-02-02,161.80,164.25,161.30,163.90,17689200\n2022-03-01,165.40,168.35,163.10,166.80,16253400\n2022-03-02,167.00,169.85,165.50,168.20,19568100\n"
+	},
+	{
+		"id": 700,
+		"category": "stem",
+		"language": "it",
+		"prompt": "Nel campo della fisica quantistica, che cos’è la sovrapposizione e in che modo è collegata al fenomeno dell’entanglement quantistico?\n"
+	},
+	{
+		"id": 701,
+		"category": "stem",
+		"language": "it",
+		"prompt": "Si consideri un satellite che si trova in un’orbita circolare attorno alla Terra. La velocità del satellite diminuisce. Cosa accadrà al raggio orbitale e al periodo di rivoluzione del satellite? Si giustifichi la risposta utilizzando i principi della fisica.\n"
+	},
+	{
+		"id": 702,
+		"category": "stem",
+		"language": "it",
+		"prompt": "La fotosintesi è un processo vitale per la vita sulla Terra. Potresti illustrare le due fasi principali della fotosintesi, indicando dove avvengono all’interno del cloroplasto e quali sono gli input e gli output principali di ciascuna fase?\n"
+	},
+	{
+		"id": 703,
+		"category": "stem",
+		"language": "it",
+		"prompt": "Qual è il dogma centrale della biologia molecolare? Quali processi sono coinvolti? Chi gli ha dato questo nome?\n"
+	},
+	{
+		"id": 704,
+		"category": "stem",
+		"language": "it",
+		"prompt": "Descrivi il processo e scrivi l’equazione chimica bilanciata della reazione che avviene quando il carbonato di calcio solido reagisce con l’acido cloridrico per formare cloruro di calcio in soluzione acquosa, anidride carbonica e acqua. Di che tipo di reazione si tratta e quali osservazioni potrebbero indicare che la reazione sta avvenendo?\n"
+	},
+	{
+		"id": 705,
+		"category": "stem",
+		"language": "it",
+		"prompt": "Spiega le differenze tra reazioni esotermiche ed endotermiche, indicando i criteri utilizzati per distinguerle. Fornisci inoltre un esempio concreto per illustrare la tua spiegazione.\n"
+	},
+	{
+		"id": 706,
+		"category": "stem",
+		"language": "it",
+		"prompt": "La città di Vega intende costruire un ponte che attraverserà il fiume Vegona, coprendo una distanza di 1,8 chilometri. Il sito proposto ricade in un’area sismicamente attiva che ha subito diversi terremoti di forte magnitudo. Date queste circostanze, quale sarebbe l’approccio migliore per la costruzione del ponte?\n"
+	},
+	{
+		"id": 707,
+		"category": "stem",
+		"language": "it",
+		"prompt": "Ti è stato affidato il compito di progettare un sistema di riscaldamento dell’acqua alimentato ad energia solare per un edificio residenziale. Descrivi i componenti chiave e gli aspetti da considerare che includeresti nel tuo progetto. Progetta un flusso di lavoro in cinque fasi.\n"
+	},
+	{
+		"id": 708,
+		"category": "stem",
+		"language": "it",
+		"prompt": "Descrivi il concetto di apprendimento automatico. Potresti approfondire le differenze tra apprendimento supervisionato, non supervisionato e per rinforzo? Fornisci esempi concreti per ciascuno di essi.\n"
+	},
+	{
+		"id": 709,
+		"category": "stem",
+		"language": "it",
+		"prompt": "In che modo le Alpi e il fiume Reno hanno influenzato l’insediamento e l’agricoltura nell’Europa occidentale? Elenca tre impatti.\n"
+	},
+	{
+		"id": 800,
+		"category": "humanities",
+		"language": "it",
+		"prompt": "Fornisci approfondimenti sulla correlazione tra indicatori economici quali il PIL, l’inflazione e i tassi di disoccupazione. Spiega in che modo le politiche fiscali e monetarie influenzano tali indicatori.\n"
+	},
+	{
+		"id": 801,
+		"category": "humanities",
+		"language": "it",
+		"prompt": "In che modo le fasi della vita plasmano la nostra comprensione del tempo e della mortalità?\n"
+	},
+	{
+		"id": 802,
+		"category": "humanities",
+		"language": "it",
+		"prompt": "Discuti delle leggi antitrust e del loro impatto sulla concorrenza di mercato. Confronta le leggi antitrust negli Stati Uniti e in Cina, illustrandole con alcuni casi di studio.\n"
+	},
+	{
+		"id": 803,
+		"category": "humanities",
+		"language": "it",
+		"prompt": "Crea un programma didattico che integri tecniche di recitazione, mimo o teatro in una lezione di storia. Durata: 3 ore di lezione (ciascuna della durata di 45 minuti) per 3 giorni\nArgomento: Le guerre dell’oppio tra Cina e Gran Bretagna\nLivello scolastico: 9-10\n"
+	},
+	{
+		"id": 804,
+		"category": "humanities",
+		"language": "it",
+		"prompt": "Condividere idee su come adattare capolavori artistici in esperienze interattive per bambini. Elencare 5 opere d’arte specifiche e le relative idee.\n"
+	},
+	{
+		"id": 805,
+		"category": "humanities",
+		"language": "it",
+		"prompt": "Spiegare cos’è l’errore del tasso di base ed elencare cinque esempi specifici di come i politici lo utilizzano nelle campagne elettorali.\n"
+	},
+	{
+		"id": 806,
+		"category": "humanities",
+		"language": "it",
+		"prompt": "Descrivere cinque principi chiave per la valutazione di un’argomentazione nella scrittura analitica.\n"
+	},
+	{
+		"id": 807,
+		"category": "humanities",
+		"language": "it",
+		"prompt": "Quali metodi impiegò Socrate per mettere in discussione il pensiero dominante della sua epoca?\n"
+	},
+	{
+		"id": 808,
+		"category": "humanities",
+		"language": "it",
+		"prompt": "Quali sono alcune norme di galateo aziendale da seguire quando si fanno affari in Giappone?\n"
+	},
+	{
+		"id": 809,
+		"category": "humanities",
+		"language": "it",
+		"prompt": "Suggerisci cinque documentari pluripremiati, corredati da brevi descrizioni contestuali, che gli aspiranti registi possano studiare.\n"
+	}
+]
