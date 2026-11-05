@@ -6,15 +6,10 @@ import json
 import os
 import time
 
-host_type = os.getenv("HOST_TYPE", "workstation").lower()
-if host_type == "colab":
-	from google.colab import drive
-	drive.mount('/content/drive')
-	os.chdir('/content/drive/MyDrive/analisi-comparativa-LLM')
-
-PROMPT_FILE = "prompts.json"
+PROMPT_FILE = "dataset/prompts.json"
 RESPONSE_FILE = "out/responses.jsonl"
-MAX_NEW_TOKENS = 512
+MAX_NEW_TOKENS = 1024
+
 
 def load_prompts():
 	with open(PROMPT_FILE, "r", encoding="utf-8") as file:
@@ -155,6 +150,7 @@ def main():
 			prompt = prompts_to_exec[i]
 			print(f"Calcolo inferenza del prompt {i+1} di {prompt_size}...")
 			try:
+				gpu = torch.cuda.get_device_name(0)
 				response, generation_time, token_number = generate_response(model, tokenizer, prompt["prompt"])
 				record = {
 					"model_name": model_name,
@@ -162,6 +158,7 @@ def main():
 					"response": response,
 					"generation_time": generation_time,
 					"token_number": token_number,
+					"gpu": gpu
 				}
 				line = json.dumps(record, ensure_ascii=False)
 				line += "\n"
