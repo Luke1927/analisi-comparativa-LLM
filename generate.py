@@ -165,7 +165,7 @@ def main():
 				with open(RESPONSE_FILE, "a", encoding="utf-8") as file:
 					file.write(line)
 			except OSError as e:
-				print(f"Errore di I/O. Esiste la cartella ./out/ ?:\n\t{e}")
+				print(f"Errore di I/O. Esiste la cartella ./out/ ?\n\t{e}")
 			except Exception as e:
 				print(f"Errore nella valutazione del modello {model_name} con il prompt #{prompt['id']}:\n\t{e}")
 
