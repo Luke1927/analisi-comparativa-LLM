@@ -11,6 +11,4 @@ for repo_id in model_list:
 		snapshot_download(repo_id=repo_id, max_workers=8)
 	except Exception as e:
 		print(f"\nErrore durante lo scaricamento di {repo_id}:\n\t{e}")
-
-
-print(f"\n{'='*29}\n|| Scaricamento completato ||\n{'='*29}")
+	print(f"\n{'='*29}\n|| Scaricamento completato ||\n{'='*29}")
