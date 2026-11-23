@@ -1,9 +1,18 @@
+# python
 __pycache__/
 *.pyc
 *.pyo
+.venv
+
+# editors
 .vscode/
 .zed/
-.rsyncignore
-local/
 pyrightconfig.json
-.venv
+
+# sync
+.rsyncignore
+.stfolder/
+.stignore
+
+# etc
+local/
